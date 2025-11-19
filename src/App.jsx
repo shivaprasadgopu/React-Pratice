@@ -1,13 +1,13 @@
+import React from "react";
+import Counter from "./Counter";
+import Countereffect from "./Countereffect";
+import Meals from "./Meals";
+import Calculator from "./Calculator";
+import ToggleBackgroundColor from "./ToggleBackgroundColor";
+import HiddenSearchBar from "./HiddenSearchBar";
+import Testimonials from "./Testimonials";
+import Form from "./Form";
 
-
-import React from 'react';
-import Counter from './Counter';
-import Countereffect from './Countereffect';
-import Meals from './Meals';
-import Calculator from './Calculator';
-import ToggleBackgroundColor from './ToggleBackgroundColor';
-import HiddenSearchBar from './HiddenSearchBar';
-import Testimonials from './Testimonials';
 
 const App = () => {
   return (
@@ -18,10 +18,10 @@ const App = () => {
       {/* <Calculator /> */}
       {/* <ToggleBackgroundColor/> */}
       {/* <HiddenSearchBar /> */}
-      <Testimonials />
-    </div>
+      {/* <Testimonials /> */}
+    <Form />
+     </div>
   );
 };
 
 export default App;
-
