@@ -6,6 +6,8 @@ import Countereffect from './Countereffect';
 import Meals from './Meals';
 import Calculator from './Calculator';
 import ToggleBackgroundColor from './ToggleBackgroundColor';
+import HiddenSearchBar from './HiddenSearchBar';
+import Testimonials from './Testimonials';
 
 const App = () => {
   return (
@@ -14,7 +16,9 @@ const App = () => {
       {/* <Countereffect /> */}
       {/* <Meals /> */}
       {/* <Calculator /> */}
-      <ToggleBackgroundColor/>
+      {/* <ToggleBackgroundColor/> */}
+      {/* <HiddenSearchBar /> */}
+      <Testimonials />
     </div>
   );
 };
